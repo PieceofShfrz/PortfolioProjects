@@ -1,7 +1,7 @@
 SELECT *
 FROM BikeStoreSales..BikeSalesInEurope
 
---Arrange the time of sales from beginning
+--Arranging the time of sales from beginning
 SELECT Date, Day, Month, Year
 FROM BikeStoreSales..BikeSalesInEurope
 ORDER BY Date 
