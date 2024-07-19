@@ -280,11 +280,6 @@ FROM MegaGymDataset
 WHERE BodyPart = 'Neck' and Title in ('Lying Face Down Plate Neck Resistance', 'Lying Face Up Plate Neck Resistance', 'Seated Head Harness Neck Resistance')
 ORDER BY Rating DESC;
 
-
-
-
-
-
 --show total type of exercise
 SELECT Type, COUNT(Type) AS TotalType
 FROM MegaGymDataset
